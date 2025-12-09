@@ -13,6 +13,20 @@ void draw(){
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
 
+  fill (221, 34, 89);
+ellipse(170, 305, 91, 75, radians(1), radians(180));
+
+
+  fill (221, 34, 89);
+ellipse(230, 305, 91, 65, radians(1), radians(180));
+
+  fill (221, 34, 89);
+arc(200, 305, 150, 100, radians(1), radians(180));
+
+line(75, 175, 285, 175);
+
+
+
   
 
 }
