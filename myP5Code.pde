@@ -12,23 +12,27 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
-
+//Lips
   fill (221, 34, 89);
 ellipse(170, 305, 91, 75, radians(1), radians(180));
 
-
+//Lips
   fill (221, 34, 89);
 ellipse(230, 305, 91, 65, radians(1), radians(180));
-
+//Lips
   fill (221, 34, 89);
 arc(200, 305, 150, 100, radians(1), radians(180));
 
-line(75, 175, 285, 175);
+line(125, 305, 275, 305);
 
+//nose
+noStroke()
+fill (255,200,0)
+triangle(158, 238, 244, 238, 200, 140)
+  rect(163,130,75,75)
 
-
-  
-
+fill(214, 255, 254)
+ellipse(230, 105, 151, 65, radians(1), radians(180));
 }
 
 //🟡Extra FUN Features Ms. Hall Added
