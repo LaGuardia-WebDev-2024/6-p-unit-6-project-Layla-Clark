@@ -12,6 +12,10 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
+  //face
+  fill(86, 186, 122)
+  ellipse(200,150,450,500)
+
 //Lips
   fill (221, 34, 89);
 ellipse(170, 305, 91, 75, radians(1), radians(180));
@@ -28,11 +32,33 @@ line(125, 305, 275, 305);
 //nose
 noStroke()
 fill (255,200,0)
-triangle(158, 238, 244, 238, 200, 140)
+triangle(138, 238, 264, 238, 200, 140)
   rect(163,130,75,75)
 
+//eyes
+strokeWeight(5)
+stroke(0,0,0)
 fill(214, 255, 254)
-ellipse(230, 105, 151, 65, radians(1), radians(180));
+ellipse(320, 105, 151, 65, radians(1), radians(180));
+strokeWeight(5)
+ellipse(90, 105, 151, 65, radians(1), radians(180));
+
+strokeWeight(2)
+//iris
+fill(50, 128, 252)
+ellipse(100,100,50,50)
+
+ellipse(320,100,50,50)
+
+//pupils
+fill(64, 19, 0)
+ellipse(100,100,15,15)
+
+ellipse(320,100,15,15)
+noStroke()
+
+fill(0,0,0)
+ellipse(200,310,150,1)
 }
 
 //🟡Extra FUN Features Ms. Hall Added
