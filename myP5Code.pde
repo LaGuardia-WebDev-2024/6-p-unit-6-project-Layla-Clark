@@ -56,7 +56,8 @@ ellipse(100,100,15,15)
 
 ellipse(320,100,15,15)
 noStroke()
-
+strokeWeight(1)
+ //Mouthline
 fill(0,0,0)
 ellipse(200,310,150,1)
 }
